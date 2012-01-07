@@ -5,8 +5,7 @@ author:
   - 'yowcow <yowcow@gmail.com>'
 build_requires:
   ExtUtils::MakeMaker: 6.36
-  Test::More: 0
-  Test::Perl::Critic: 0
+  Test::More: 0.98
 configure_requires:
   ExtUtils::MakeMaker: 6.36
 distribution_type: module
@@ -25,4 +24,4 @@ requires:
   Encode: 0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.02
+version: 0.03
