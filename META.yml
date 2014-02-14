@@ -2,26 +2,40 @@
 abstract: 'To retrieve ISO 3166:CN standard Chinese provinces'
 author:
   - 'yowcow  C<< <yowcow@cpan.org> >>'
-  - 'yowcow <yowcow@cpan.org>'
 build_requires:
   ExtUtils::MakeMaker: 6.36
   Test::More: 0.98
 configure_requires:
-  ExtUtils::MakeMaker: 6.36
-distribution_type: module
-dynamic_config: 1
-generated_by: 'Module::Install version 1.06'
+  CPAN::Meta: 0
+  CPAN::Meta::Prereqs: 0
+  Module::Build: 0.38
+dynamic_config: 0
+generated_by: 'Minilla/v0.11.0, CPAN::Meta::Converter version 2.133380'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
-name: Geography-China-Provinces
+name: geography-china-provinces
 no_index:
   directory:
-    - inc
     - t
+    - xt
+    - inc
+    - share
+    - eg
+    - examples
+    - author
+    - builder
+provides:
+  Geography::China::Provinces:
+    file: lib/Geography/China/Provinces.pm
+    version: 0.05
 requires:
   Encode: 0
 resources:
-  license: http://dev.perl.org/licenses/
-version: 0.04
+  bugtracker: https://github.com/yowcow/p5-geography-china-provinces/issues
+  homepage: https://github.com/yowcow/p5-geography-china-provinces
+  repository: git://github.com/yowcow/p5-geography-china-provinces.git
+version: 0.05
+x_contributors:
+  - 'yowcow <yowcow@gmail.com>'
