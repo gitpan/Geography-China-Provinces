@@ -15,7 +15,7 @@ license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
-name: geography-china-provinces
+name: Geography-China-Provinces
 no_index:
   directory:
     - t
